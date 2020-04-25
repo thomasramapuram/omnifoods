@@ -26,7 +26,6 @@ html {
   visibility: hidden;
 }
 /*endregion*/
-
 /*region Reusable Components*/
 .row {
   max-width: 1140px;
@@ -41,7 +40,6 @@ section {
   padding: 1%;
 }
 /*endregion*/
-
 /*region Generic - Headings*/
 h1,
 h2,
@@ -82,7 +80,6 @@ h2:after {
   margin-top: 30px;
 }
 /*endregion*/
-
 /*region Generic - Paragraphs*/
 .long-copy {
   line-height: 145%;
@@ -95,7 +92,6 @@ h2:after {
   line-height: 145%;
 }
 /*endregion*/
-
 /*region Generic - Icons*/
 .icon-big {
   font-size: 350%;
@@ -118,7 +114,6 @@ h2:after {
   margin-top: -4px;
 }
 /*endregion*/
-
 /*region Generic - Links*/
 a:link,
 a:active{
@@ -136,7 +131,6 @@ a:visited{
   border-bottom: 1px solid transparent;
 }
 /*endregion*/
-
 /*region Generic - Buttons*/
 .btn:link,
 .btn:visited {
@@ -177,7 +171,6 @@ a:visited{
   color: #fff;
 }
 /*endregion*/
-
 /*region Header*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
@@ -229,13 +222,11 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 /*endregion*/
-
 /*region Features*/
 .section-features .long-copy {
   margin-bottom: 30px;
 }
 /*endregion*/
-
 /*region Meals*/
 .section-meals {
   padding: 0;
@@ -272,7 +263,6 @@ header {
   transform: scale(1);
 }
 /*endregion*/
-
 /*region How it works*/
 .section-steps{
   background-color: #f4f4f4;
@@ -326,7 +316,6 @@ header {
 
 }
 /*endregion*/
-
 /*region Cities*/
 .box img{
   width: 100%;
@@ -341,6 +330,9 @@ header {
 .city-feature p{
   display: inline-block;
 }
+/*endregion*/
+/*region Testimonials*/
+
 /*endregion*/
 
 
