@@ -1,6 +1,4 @@
-/*---------------------------------------------------*/
-/* BASIC SETUP */
-/*---------------------------------------------------*/
+/*region Basic Setup*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
 * {
@@ -27,11 +25,9 @@ html {
   height: 0;
   visibility: hidden;
 }
+/*endregion*/
 
-/*---------------------------------------------------*/
-/* REUSABLE COMPONENTS */
-/*---------------------------------------------------*/
-
+/*region Reusable Components*/
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -44,8 +40,9 @@ section {
 .box {
   padding: 1%;
 }
+/*endregion*/
 
-/*---------- Headings ----------*/
+/*region Generic - Headings*/
 h1,
 h2,
 h3 {
@@ -84,8 +81,9 @@ h2:after {
   margin: 0 auto;
   margin-top: 30px;
 }
+/*endregion*/
 
-/*---------- Paragraphs ----------*/
+/*region Generic - Paragraphs*/
 .long-copy {
   line-height: 145%;
   width: 70%;
@@ -96,9 +94,9 @@ h2:after {
   font-size: 90%;
   line-height: 145%;
 }
+/*endregion*/
 
-/*---------- Icons ----------*/
-
+/*region Generic - Icons*/
 .icon-big {
   font-size: 350%;
   display: block;
@@ -119,8 +117,9 @@ h2:after {
   vertical-align: middle;
   margin-top: -4px;
 }
-/*---------- Links ----------*/
+/*endregion*/
 
+/*region Generic - Links*/
 a:link,
 a:active{
   color: #e67e22;
@@ -136,9 +135,9 @@ a:visited{
   color: #555;
   border-bottom: 1px solid transparent;
 }
+/*endregion*/
 
-/*---------- Buttons ----------*/
-
+/*region Generic - Buttons*/
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -177,11 +176,9 @@ a:visited{
 .btn-ghost:active {
   color: #fff;
 }
+/*endregion*/
 
-/*---------------------------------------------------*/
-/* HEADER */
-/*---------------------------------------------------*/
-
+/*region Header*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
   background-size: cover;
@@ -231,18 +228,15 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
+/*endregion*/
 
-/*---------------------------------------------------*/
-/* FEATURES */
-/*---------------------------------------------------*/
-
+/*region Features*/
 .section-features .long-copy {
   margin-bottom: 30px;
 }
+/*endregion*/
 
-/*---------------------------------------------------*/
-/* MEALS */
-/*---------------------------------------------------*/
+/*region Meals*/
 .section-meals {
   padding: 0;
 }
@@ -277,10 +271,9 @@ header {
   opacity: 1;
   transform: scale(1);
 }
-/*---------------------------------------------------*/
-/* HOW IT WORKS */
-/*---------------------------------------------------*/
+/*endregion*/
 
+/*region How it works*/
 .section-steps{
   background-color: #f4f4f4;
 }
@@ -332,11 +325,9 @@ header {
   margin-right: 10px;
 
 }
+/*endregion*/
 
-/*---------------------------------------------------*/
-/* Cities */
-/*---------------------------------------------------*/
-
+/*region Cities*/
 .box img{
   width: 100%;
   height: auto;
@@ -350,3 +341,6 @@ header {
 .city-feature p{
   display: inline-block;
 }
+/*endregion*/
+
+
