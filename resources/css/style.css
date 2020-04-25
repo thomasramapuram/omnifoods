@@ -16,15 +16,18 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-.clearfix{zoom: 1}
+.clearfix {
+  zoom: 1
+}
 
-.clearfix:after{
+.clearfix:after {
   content: '.';
   clear: both;
   display: block;
   height: 0;
   visibility: hidden;
 }
+
 /*endregion*/
 /*region Reusable Components*/
 .row {
@@ -39,6 +42,7 @@ section {
 .box {
   padding: 1%;
 }
+
 /*endregion*/
 /*region Generic - Headings*/
 h1,
@@ -79,6 +83,7 @@ h2:after {
   margin: 0 auto;
   margin-top: 30px;
 }
+
 /*endregion*/
 /*region Generic - Paragraphs*/
 .long-copy {
@@ -91,6 +96,7 @@ h2:after {
   font-size: 90%;
   line-height: 145%;
 }
+
 /*endregion*/
 /*region Generic - Icons*/
 .icon-big {
@@ -100,7 +106,7 @@ h2:after {
   margin-bottom: 10px;
 }
 
-.icon-small{
+.icon-small {
   display: inline-block;
   width: 30px;
   text-align: center;
@@ -113,10 +119,11 @@ h2:after {
   vertical-align: middle;
   margin-top: -4px;
 }
+
 /*endregion*/
 /*region Generic - Links*/
 a:link,
-a:active{
+a:active {
   color: #e67e22;
   text-decoration: none;
   padding-bottom: 1px;
@@ -126,10 +133,11 @@ a:active{
 }
 
 a:hover,
-a:visited{
+a:visited {
   color: #555;
   border-bottom: 1px solid transparent;
 }
+
 /*endregion*/
 /*region Generic - Buttons*/
 .btn:link,
@@ -170,6 +178,7 @@ a:visited{
 .btn-ghost:active {
   color: #fff;
 }
+
 /*endregion*/
 /*region Header*/
 header {
@@ -221,11 +230,13 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
+
 /*endregion*/
 /*region Features*/
 .section-features .long-copy {
   margin-bottom: 30px;
 }
+
 /*endregion*/
 /*region Meals*/
 .section-meals {
@@ -262,11 +273,13 @@ header {
   opacity: 1;
   transform: scale(1);
 }
+
 /*endregion*/
 /*region How it works*/
-.section-steps{
+.section-steps {
   background-color: #f4f4f4;
 }
+
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
@@ -282,7 +295,7 @@ header {
   width: 40%;
 }
 
-.work-steps{
+.work-steps {
   margin-bottom: 50px;
 }
 
@@ -305,33 +318,69 @@ header {
 }
 
 .btn-app:link,
-.btn-app:visited{
+.btn-app:visited {
   border: 0;
 }
 
-.btn-app img{
+.btn-app img {
   height: 50px;
   width: auto;
   margin-right: 10px;
 
 }
+
 /*endregion*/
 /*region Cities*/
-.box img{
+.box img {
   width: 100%;
   height: auto;
   margin-bottom: 50px;
 }
 
-.city-feature{
+.city-feature {
   margin-bottom: 5px;
 }
 
-.city-feature p{
+.city-feature p {
   display: inline-block;
 }
+
 /*endregion*/
 /*region Testimonials*/
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/back-customers.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.section-testimonials blockquote{
+  padding: 2px;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+.section-testimonials blockquote:before{
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.section-testimonials cite{
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+.section-testimonials cite img{
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
 
 /*endregion*/
 
